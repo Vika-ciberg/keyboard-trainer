@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Клавіатурний тренажер</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Тренажер сліпого друку</h1>
+    
+    <!-- Блок статистики -->
+    <div class="stats">
+      <div>Час: <span id="timer">0</span> с</div>
+      <div>Швидкість: <span id="cpm">0</span> зн/хв</div>
+      <div>Точність: <span id="accuracy">100</span>%</div>
+    </div>
 
+    <!-- Поле з текстом для набору -->
+    <div class="text-display" id="text-display"></div>
+
+    <!-- Кнопка перезапуску -->
+    <button id="restart-btn">Новий текст / Спочатку</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
